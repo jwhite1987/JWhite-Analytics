@@ -1,31 +1,18 @@
-<h1 align="center">
-
 # `JWhite Analytics`
 
-</h1>
 ## Project Description
 
-- The goal of this project use the United States Geological Survey, which is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change, to then build a new set of tools that will allow the visualization of their earthquake data.
-- Using the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php), a dataset will be picked to then download the corresponding JSON file to use as the primary dataset.
+-  Using GitHub's web hosting abilities, my personal website is hosted here. Then, via Google Domains, I purchased a domain name that I forward through, so I have my own personal .com.
 
 ## Languages & Technology Used
 
-- JSON
-- Leaflet
 - JavaScript
 - HTML
 - CSS
 
-## Project Link
+## Personal Website
 
-- [Demo](https://jimmywhite1987.github.io/Leaflet-and-the-USGS/)
-
-## Screenshots
-![image](/Images/screenshot1.png)
-
-![image](/Images/screenshot2.png)
-
-![image](/Images/screenshot3.png)
+- [JWhiteAnalytics.com](https://jwhiteanalytics.com)
 
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
