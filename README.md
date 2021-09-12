@@ -1,52 +1,32 @@
 <h1 align="center">
 
-Welcome to My Personal Website 👋
+# `JWhite Analytics`
 
 </h1>
-<p>
-<img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+## Project Description
 
-<a href="None/graphs/commit-activity" target="_blank"><img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" /></a>
+- The goal of this project use the United States Geological Survey, which is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change, to then build a new set of tools that will allow the visualization of their earthquake data.
+- Using the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php), a dataset will be picked to then download the corresponding JSON file to use as the primary dataset.
 
+## Languages & Technology Used
 
-</p>
+- JSON
+- Leaflet
+- JavaScript
+- HTML
+- CSS
 
-> Using Github Pages and Google Domains, this website was built using bootstrap to display my portfolio and resume information.
+## Project Link
 
+- [Demo](https://jimmywhite1987.github.io/Leaflet-and-the-USGS/)
 
-## Install
-```sh
-None
+## Screenshots
+![image](/Images/screenshot1.png)
 
-```
+![image](/Images/screenshot2.png)
 
-## Usage
-```sh
-None
+![image](/Images/screenshot3.png)
 
-```
-
-## Run tests
-```sh
-None
-
-```
-
-## Author
-👤 **Jimmy White**
-* Website: http://www.jwhiteanalytics.com
-
-* GitHub: [@jimmywhite1987](https://github.com/{github_username})
-* LinkedIn: [@jimmywhite1987](https://linkedin.com/in/{author_linkedin_username})
-
-
-
-
-## Show your support
-Give a ⭐️ if this project helped you!
-## Credits
-**[Jimmy White](None)**
-
-
----
-_This README was created with the [markdown-readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
+## Links
+- [JWhiteAnalytics.com](https://jwhiteanalytics.com)
+- [LinkedIn](https://www.linkedin.com/in/jimmywhite1987)
