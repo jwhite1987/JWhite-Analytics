@@ -15,11 +15,11 @@
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
 
 ## Screenshots
-![image](/Images/screenshot1.png)
+![image](/Images/screenshot1.jpg)
 
-![image](/Images/screenshot2.png)
+![image](/Images/screenshot2.jpg)
 
-![image](/Images/screenshot3.png)
+![image](/Images/screenshot3.jpg)
 
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
