@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <title>Portfolio Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -50,16 +50,24 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/mars.jpg" alt="">
-                </div>
-
-                <!-- <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="port-images/p5/screenshot1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div> -->
+                  <img src="port-images/p5/screenshot2.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="port-images/p5/screenshot3.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="port-images/p5/screenshot4.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="port-images/p5/screenshot5.png" alt="">
+                </div>
 
               </div>
               <!-- <div class="swiper-pagination"></div> -->
@@ -68,19 +76,34 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h2><i><u>Web Scraper App</i></u></h2>
               <ul>
                 <li><strong>Category</strong>: Web</li>
                 <!-- <li><strong>Client</strong>: ASU Company</li> -->
                 <!-- <li><strong>Project date</strong>: 01 March, 2020</li> -->
-                <li><strong>Project URL</strong>: <a href="https://mission-to-mars-1.herokuapp.com/" target="_blank">Mission to Mars</a></li>
+                <li><strong>Project URL</strong>: <a href="https://mission-to-mars-1.herokuapp.com/" target="_blank">Web Scraper App</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Mission to Mars</h2>
-              <p>
-                Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. Scrape several websites and collect relevant data. Assign the text and photos to variables that can be referenced later. Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs.
-              </p>
+              <h2>Project Description</h2>
+              <ul>
+                <li>The goal of this project is to build a web application that scrapes various websites for data related to the NASA's website for Mars and Mars data and displays the information in a single HTML page.</li>
+                <li>First, begin scraping the NASA Mars News Site using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter and collect the latest News Title and Paragraph Text and assign the text to variables that can be referenced later.</li>
+                <li>Then, visit this url and using splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable.</li>
+                <li>Using the same scraping libraries, visit the Mars Facts webpage here and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, and other relevant data. Then, visit the USGS Astrogeology site here to obtain high resolution images for each of Mar's hemispheres.</li>
+                <li>Finally, using MongoDB and Flask, build an HTML page that displays all of the information that was scraped/gathered from the URLs previously listed.</li>
+              </ul>
+              <h2>Languages and Technology Used</h2>
+              <ul>
+                <li>Python</li>
+                <li>Jupyter Notebook</li>
+                <li>BeautifulSoup</li>
+                <li>Pandas</li>
+                <li>Requests/Splinter</li>
+                <li>MongoDB</li>
+                <li>Flask</li>
+                <li>HTML</li>
+              </ul>
             </div>
           </div>
 
