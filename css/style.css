@@ -768,6 +768,11 @@ button:focus {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  /* 5 columns for larger screens */
+  .grid { width: 25%; }
+}
+
 /* clearfix */
 .grid:after {
   content: '';
