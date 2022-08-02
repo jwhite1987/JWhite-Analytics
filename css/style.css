@@ -770,7 +770,18 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   /* 5 columns for larger screens */
-  .grid { width: 25%; }
+  .grid { width: 25%;
+  }
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .grid-item {
+    width: 25%;
+    percentPosition: true;
+  }
 }
 
 /* clearfix */
@@ -782,10 +793,6 @@ button:focus {
 
 .grid-item {
   width: 25%;
-  /* margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px; */
   percentPosition: true;
 }
 
