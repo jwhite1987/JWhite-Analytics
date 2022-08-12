@@ -766,6 +766,7 @@ button:focus {
   max-width: 100%;
   /* justify-content: center; */
   margin: 0 auto;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -781,21 +782,173 @@ button:focus {
     clear: both;
   }
   .grid-item {
-    width: 25%;
+    width: 50%;
     percentPosition: true;
   }
 }
 
 /* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
+
 
 .grid-item {
   width: 25%;
   percentPosition: true;
 }
 
-.grid-item--width2 { width: 800px; }
+/* .grid2 {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+};
+
+.grid2:after {
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+/* .grid-item--width2 {
+  width: 25%;
+  gutter: 20;
+  percent-position: true;
+  /* margin-bottom: 5px; */
+  /* gutter: 10; */
+
+
+* { box-sizing: border-box; }
+
+/* body { font-family: sans-serif; } */
+
+.grid2 {
+  /* padding: 30px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  /* background: #EEE; */
+}
+
+/* item is invisible, but used for layout */
+.grid-item2,
+.grid-sizer {
+  width: 33%;
+}
+
+.grid-item2 {
+  float: left;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+/* grid-item-content is visible, and transitions size */
+.grid-item--width2 {
+  width: 100%;
+  height: 100%;
+  padding-right: 5px;
+  /* background: #D26; */
+  /* border: 2px solid #333; */
+  /* border-color: hsla(0, 0%, 0%, 0.5); */
+  /* border-radius: 5px; */
+  -webkit-transition: width 0.9s, height 0.9s;
+          transition: width 0.9s, height 0.9s;
+}
+
+.grid-item2:hover .grid-item--width2 {
+  border-color: white;
+  /* background: #A2C; */
+  cursor: pointer;
+}
+
+/* both item and item content change size */
+.grid-item2.is-expanded {
+  width: 576px;
+  height: 324px;
+  z-index: 2;
+}
+
+.grid-item2.is-expanded .grid-item--width2 {
+  /* background: #F90; */
+}
+
+.grid2:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 20px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #0563bb;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #0563bb;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 20px;
+  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #31a3c6;
+  color: #31a3c6;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+.portfolio-details .portfolio-info2 {
+  /* padding: 10px; */
+  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+}
+
+.portfolio-details .portfolio-info2 h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #31a3c6;
+  /* margin-bottom: 10px; */
+  /* padding-bottom: 10px; */
+  /* border-bottom: 1px solid #31a3c6; */
+}
