@@ -42,8 +42,8 @@
     <div class="container overflow-hidden">
       <div class="portfolio-info2 mb-3 text-center">
         <h6 style="font-size: 26px; color: #000000;" class="portfolio">
-          Hakuna Moscato
-          <a href="https://github.com/jwhite1987/Hakuna-Moscato" target="_blank" class="link-light"><i class="mdi mdi-github-circle" style="color: #000"></i></a>
+          Open Weather Map
+          <a href="https://github.com/jwhite1987/Open-Weather-Map" target="_blank" class="link-light"><i class="mdi mdi-github-circle" style="color: #000"></i></a>
         </h6>
       </div>
     </div>
@@ -51,42 +51,49 @@
   <section style="background-color: #f0f3f5; color: #000;">
     <div class="container overflow-hidden">
       <div class="row">
-      <div class="col">
-        <div class="portfolio-info">
-          <h5 class="portfolio">Description</h5>
-          <ul style="list-style-type: circle;">
-            <li>Using data scraped from Global Wine Score API as well as a dataset from Kaggle, the goal of this project is to determine what factors affect wine quality, including country of origin, price, color, and vintage.</li>
-            <li>Visualization includes a Python Flask-powered API, HTML/CSS, JavaScript, and an SQL database.</li>
-            <li>In addition to the above, we utilized: Heroku, Bootstrap, Plotly, Leaflet and D3.</li>
-            <li>Powered by a dataset with over 200000 records.</li>
-            <li>Includes user-driven interaction.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col">
-        <div class="portfolio-info mb-3">
-          <h5 class="portfolio">Languages & Technologies</h5>
-          <ul style="list-style-type: circle;">
-            <div class="row">
-              <div class="col">
-            <li>Python</li>
-            <li>Jupyter Notebook</li>
-            <li>Heroku</li>
-            <li>Google Cloud App</li>
-            <li>Bootstrap</li>
-            <li>HTML</li>
-          </div>
-          <div class="col">
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Leaflet</li>
-            <li>D3</li>
-            <li>Plotly</li>
+        <div class="col">
+          <div class="portfolio-info">
+            <h5 class="portfolio">Description</h5>
+            <ul style="list-style-type: circle;">
+              <li>The goal of this project is to utilize the CitiPy Python Library and the OpenWeatherMap API to create a representative model of weather across world cities.</li>
+              <li>Then, create a series of scatter plots to showcase the following relationships:</li>
+              <ul style="list-style-type: square;">
+                <li>Temperature (F) vs. Latitude</li>
+                <li>Humidity (%) vs. Latitude</li>
+                <li>Cloudiness (%) vs. Latitude</li>
+                <li>Wind Speed (mph) vs. Latitude</li>
+              </ul>
+              <li>Then, run linear regression on each relationship. This time, separate the plots into Northern Hemisphere and Southern Hemisphere:</li>
+              <ul style="list-style-type: square;">
+                <li>Northern Hemisphere - Temperature (F) vs. Latitude</li>
+                <li>Southern Hemisphere - Temperature (F) vs. Latitude</li>
+                <li>Northern Hemisphere - Humidity (%) vs. Latitude</li>
+                <li>Southern Hemisphere - Humidity (%) vs. Latitude</li>
+                <li>Northern Hemisphere - Cloudiness (%) vs. Latitude</li>
+                <li>Southern Hemisphere - Cloudiness (%) vs. Latitude</li>
+                <li>Northern Hemisphere - Wind Speed (mph) vs. Latitude</li>
+                <li>Southern Hemisphere - Wind Speed (mph) vs. Latitude</li>
+              </ul>
+              <li>Using the data from the first half of this project, then create a heat map that displays the humidity for every city from Part I.</li>
+              <li>Finally, narrow down the DataFrame to find the "ideal" weather condition, use Google Places API to find the first hotel for each city located within 5000 meters of the coordinates and plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.</li>
+            </ul>
           </div>
         </div>
-          </ul>
+        <div class="col">
+          <div class="portfolio-info mb-3">
+            <h5 class="portfolio">Languages & Technologies</h5>
+            <ul style="list-style-type: circle;">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>Jupyter Notebook</li>
+              <li>CitiPy</li>
+              <li>Open Weather Map API</li>
+              <li>Google Places API</li>
+            </ul>
+          </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </div>
@@ -99,58 +106,50 @@
         <div class="row gy-4 justify-content-center">
           <div style="color: #000">
             <div class="portfolio-info mb-2">
-              <h6 class="portfolio">Powerpoint Presentation</h6>
+              <h6 class="portfolio">Screenshots</h6>
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section style="background-color: #f0f3f5; color: #000;">
-      <div class="container overflow-hidden">
-        <div class="portfolio-info2 mb-3 mt-3">
-          <div class="row gy-4 justify-content-center">
-            <div class="mb-3" style="color: #000">
-              <div class="portfolio-info mb-3">
-              <!-- </div> -->
-              <!-- <p style="margin-left: 20px; margin-right: 20px; color:#000">
-                Click for larger view!
-              </p> -->
+  </section>
+  <section style="background-color: #f0f3f5; color: #000;">
+    <div class="container overflow-hidden">
+      <div class="portfolio-info2 mb-3 mt-3">
+        <div class="row gy-4 justify-content-center">
+          <div class="mb-3" style="color: #000">
+            <div class="portfolio-info mb-3">
               <div class="grid2 mb-4" data-masonry='{ "columnWidth": 10 }'>
                 <div class="grid-sizer"></div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide1.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot1.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide2.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot2.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide3.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot3.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide4.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot4.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide5.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot5.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide6.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot6.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide7.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot7.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide8.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot8.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide9.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide10.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide11.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/owm/screenshot9.png" class="grid-item--width2">
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

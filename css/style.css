@@ -163,6 +163,10 @@ button:focus {
     background-color: #26282b !important;
 }
 
+.bg-dark {
+    background-color: #c4d6e2 !important;
+}
+
 .text-muted {
     color: #a0a0ac !important;
 }
@@ -815,7 +819,7 @@ button:focus {
   /* gutter: 10; */
 
 
-* { box-sizing: border-box; }
+/* * { box-sizing: border-box; } */
 
 /* body { font-family: sans-serif; } */
 
@@ -829,12 +833,12 @@ button:focus {
 /* item is invisible, but used for layout */
 .grid-item2,
 .grid-sizer {
-  width: 33%;
+  width: 20%;
 }
 
 .grid-item2 {
   float: left;
-  height: 100px;
+  /* height: 100px; */
   margin-bottom: 5px;
 }
 
@@ -847,8 +851,8 @@ button:focus {
   /* border: 2px solid #333; */
   /* border-color: hsla(0, 0%, 0%, 0.5); */
   /* border-radius: 5px; */
-  -webkit-transition: width 0.9s, height 0.9s;
-          transition: width 0.9s, height 0.9s;
+  -webkit-transition: width 0.5s, height 0.5s;
+          transition: width 0.5s, height 0.5s;
 }
 
 .grid-item2:hover .grid-item--width2 {
@@ -902,7 +906,8 @@ button:focus {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 20px;
+  color: #000;
+  padding: 10px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
 }
 
@@ -951,4 +956,61 @@ button:focus {
   /* margin-bottom: 10px; */
   /* padding-bottom: 10px; */
   /* border-bottom: 1px solid #31a3c6; */
+}
+h3.portfolio {
+ display:inline-block;
+ padding:10px;
+ text-transform:uppercase;
+ font-size:26px;
+ margin-bottom:10px;
+ margin-top:10px
+}
+h4.portfolio {
+ display:inline-block;
+ padding:10px;
+ text-transform:uppercase;
+ font-size:18px;
+ margin-bottom:10px;
+ margin-top:10px
+}
+h3.portfolio {
+ border-bottom:1.2px #fff solid
+}
+h4.portfolio {
+ border-bottom:1.2px #fff solid
+}
+h6.portfolio {
+ display:inline-block;
+ padding:10px;
+ text-transform:uppercase;
+ font-size:18px;
+ margin-bottom:10px;
+ margin-top:10px
+}
+h6.portfolio {
+ border-bottom:1.2px #fff solid
+}
+h1.portfolio {
+ display:inline-block;
+ padding:10px;
+ text-transform:uppercase;
+ font-size:26px;
+ margin-bottom:10px;
+ margin-top:10px
+ color: #000;
+}
+h1.portfolio {
+ border-bottom:1.2px #fff solid
+}
+h5.portfolio {
+ display:inline-block;
+ padding:10px;
+ text-transform:uppercase;
+ font-size:18px;
+ margin-bottom:10px;
+ margin-top:10px
+ color: #000;
+}
+h5.portfolio {
+ border-bottom:1.2px #c4d6e2 solid
 }

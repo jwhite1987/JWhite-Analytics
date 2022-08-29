@@ -42,8 +42,8 @@
     <div class="container overflow-hidden">
       <div class="portfolio-info2 mb-3 text-center">
         <h6 style="font-size: 26px; color: #000000;" class="portfolio">
-          Hakuna Moscato
-          <a href="https://github.com/jwhite1987/Hakuna-Moscato" target="_blank" class="link-light"><i class="mdi mdi-github-circle" style="color: #000"></i></a>
+          Web Scraper App
+          <a href="https://github.com/jwhite1987/Web-Scraper-App" target="_blank" class="link-light"><i class="mdi mdi-github-circle" style="color: #000"></i></a>
         </h6>
       </div>
     </div>
@@ -51,42 +51,35 @@
   <section style="background-color: #f0f3f5; color: #000;">
     <div class="container overflow-hidden">
       <div class="row">
-      <div class="col">
-        <div class="portfolio-info">
-          <h5 class="portfolio">Description</h5>
-          <ul style="list-style-type: circle;">
-            <li>Using data scraped from Global Wine Score API as well as a dataset from Kaggle, the goal of this project is to determine what factors affect wine quality, including country of origin, price, color, and vintage.</li>
-            <li>Visualization includes a Python Flask-powered API, HTML/CSS, JavaScript, and an SQL database.</li>
-            <li>In addition to the above, we utilized: Heroku, Bootstrap, Plotly, Leaflet and D3.</li>
-            <li>Powered by a dataset with over 200000 records.</li>
-            <li>Includes user-driven interaction.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col">
-        <div class="portfolio-info mb-3">
-          <h5 class="portfolio">Languages & Technologies</h5>
-          <ul style="list-style-type: circle;">
-            <div class="row">
-              <div class="col">
-            <li>Python</li>
-            <li>Jupyter Notebook</li>
-            <li>Heroku</li>
-            <li>Google Cloud App</li>
-            <li>Bootstrap</li>
-            <li>HTML</li>
-          </div>
-          <div class="col">
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Leaflet</li>
-            <li>D3</li>
-            <li>Plotly</li>
+        <div class="col">
+          <div class="portfolio-info">
+            <h5 class="portfolio">Description</h5>
+            <ul style="list-style-type: circle;">
+              <li>The goal of this project is to build a web application that scrapes various websites for data related to the NASA's website for Mars and Mars data and displays the information in a single HTML page.</li>
+              <li>First, begin scraping the <a href="https://mars.nasa.gov/news/" target="_blank" style="color: #c4d6e2;">NASA Mars News Site</a> using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter and collect the latest News Title and Paragraph Text and assign the text to variables that can be referenced later.</li>
+              <li>Then, visit this <a href="https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html" target="_blank" style="color: #c4d6e2;">url</a> and using splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable.</li>
+              <li>Using the same scraping libraries, visit the Mars Facts webpage <a href="https://space-facts.com/mars/" target="_blank" style="color: #c4d6e2;">here</a> and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, and other relevant data. Then, visit the USGS Astrogeology site <a href="https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars" target="_blank" style="color: #c4d6e2;">here</a> to obtain high resolution images for each of Mar's hemispheres.</li>
+              <li>Finally, using MongoDB and Flask, build an HTML page that displays all of the information that was scraped/gathered from the URLs previously listed.</li>
+            </ul>
           </div>
         </div>
-          </ul>
+        <div class="col">
+          <div class="portfolio-info mb-3">
+            <h5 class="portfolio">Languages & Technologies</h5>
+            <ul style="list-style-type: circle;">
+              <li>Python</li>
+              <li>Jupyter Notebook</li>
+              <li>BeautifulSoup</li>
+              <li>Pandas</li>
+              <li>Requests/Splinter</li>
+              <li>MongoDB</li>
+              <li>Flask</li>
+              <li>HTML</li>
+            </ul>
+          </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </div>
@@ -99,58 +92,38 @@
         <div class="row gy-4 justify-content-center">
           <div style="color: #000">
             <div class="portfolio-info mb-2">
-              <h6 class="portfolio">Powerpoint Presentation</h6>
+              <h6 class="portfolio">Screenshots</h6>
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section style="background-color: #f0f3f5; color: #000;">
-      <div class="container overflow-hidden">
-        <div class="portfolio-info2 mb-3 mt-3">
-          <div class="row gy-4 justify-content-center">
-            <div class="mb-3" style="color: #000">
-              <div class="portfolio-info mb-3">
-              <!-- </div> -->
-              <!-- <p style="margin-left: 20px; margin-right: 20px; color:#000">
-                Click for larger view!
-              </p> -->
+  </section>
+  <section style="background-color: #f0f3f5; color: #000;">
+    <div class="container overflow-hidden">
+      <div class="portfolio-info2 mb-3 mt-3">
+        <div class="row gy-4 justify-content-center">
+          <div class="mb-3" style="color: #000">
+            <div class="portfolio-info mb-3">
               <div class="grid2 mb-4" data-masonry='{ "columnWidth": 10 }'>
                 <div class="grid-sizer"></div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide1.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/wsa/screenshot1.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide2.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/wsa/screenshot2.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide3.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/wsa/screenshot3.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide4.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/wsa/screenshot4.png" class="grid-item--width2">
                 </div>
                 <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide5.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide6.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide7.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide8.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide9.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide10.jpeg" class="grid-item--width2">
-                </div>
-                <div class="grid-item2">
-                  <img src="images/portfolio/hk/Slide11.jpeg" class="grid-item--width2">
+                  <img src="images/portfolio/wsa/screenshot5.png" class="grid-item--width2">
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
