@@ -1729,11 +1729,11 @@ figure.effect-marley:hover h2 {
 }
 
 figure.effect-marley: img{
-    opacity:  0.75;
+    opacity:  1.0;
 }
 
 figure.effect-marley:hover img {
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 figure.effect-marley h2::after {
