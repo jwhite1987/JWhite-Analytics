@@ -1732,6 +1732,8 @@ figure.effect-marley: img{
     opacity:  1.0;
 }
 
+
+
 figure.effect-marley:hover img {
     opacity: 0.5;
 }
