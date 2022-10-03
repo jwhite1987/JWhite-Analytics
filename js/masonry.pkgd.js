@@ -2592,7 +2592,7 @@ function setItemContentTransitionSize( itemContent, itemElem ) {
                 gutter: 0,
                 fitWidth: true,
                 percentPosition: true,
-                // margin: 0 auto,
+                margin: 0 auto,
             });
         } else {
             $('.mas-container').removeClass('mas-container').addClass('row');
