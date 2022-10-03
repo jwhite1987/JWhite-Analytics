@@ -18,7 +18,7 @@
     8.WORK
     9.BLOG
     10.CONTACT
-    11.FOOTER
+    11.footer2
     12.RESPONSIVE
 ************************/
 
@@ -673,19 +673,19 @@ button:focus {
 
 
 /*======================
-        11.FOOTER
+        11.footer2
 ========================*/
 
-.footer {
+.footer2 {
     padding: 70px 0px;
     background-color: #212121 !important;
 }
 
-.footer .footer-alt p {
+.footer2 .footer2-alt p {
     font-size: 16px;
 }
 
-.footer .footer-alt ul li a {
+.footer2 .footer2-alt ul li a {
     border-radius: 50%;
     transition: all 0.5s;
     background-color: rgba(241, 241, 241, 0.08);
@@ -701,7 +701,7 @@ button:focus {
     color: #ababab;
 }
 
-.footer-alt li a i{
+.footer2-alt li a i{
     color: #ababab;
     transition: all 0.5s;
 }
@@ -2176,4 +2176,8 @@ figure.effect-chico:hover p {
         margin: 10px auto;
         width: 100%;
     }
+}
+
+.card-box {
+    margin-bottom: 10px;
 }

@@ -2516,6 +2516,7 @@ $('.grid2').masonry({
   // gutter: 0
 });
 
+
 // external js: masonry.pkgd.js
 
 var $grid = $('.grid2').masonry({
@@ -2576,3 +2577,29 @@ function setItemContentTransitionSize( itemContent, itemElem ) {
   itemContent.style.width = size.width + 'px';
   itemContent.style.height = size.height + 'px';
 }
+ $().ready(function() {
+
+        var $container = $('.masonry-container');
+
+
+        doc_width = $(document).width();
+
+        if (doc_width >= 768) {
+            $container.masonry({
+                itemSelector: '.card-box',
+                columnWidth: '.card-box',
+                transitionDuration: 0,
+                gutter: 0,
+                fitWidth: true,
+                percentPosition: true,
+                // margin: 0 auto,
+            });
+        } else {
+            $('.mas-container').removeClass('mas-container').addClass('row');
+        }
+
+    });
+//  $('masonry-container').masonry({
+//   itemSelector: '.card-box',
+//   gutter: 10
+// })

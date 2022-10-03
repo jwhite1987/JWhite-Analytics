@@ -603,7 +603,7 @@ progress {
   padding-right: var(--bs-gutter-x, .75rem);
   padding-left: var(--bs-gutter-x, .75rem);
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
 }
 
 @media (min-width:576px) {
@@ -3214,7 +3214,7 @@ textarea.form-control-lg {
 
 .btn-light {
   color: #000;
-  background-color: #f8f9fa;
+  background-color: #2e3135;
   border-color: #f8f9fa
 }
 
