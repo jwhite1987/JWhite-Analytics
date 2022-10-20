@@ -767,13 +767,13 @@ button:focus {
 }
 
 .grid {
-  max-width: 100%;
+  /*max-width: 100%;*/
   /*justify-content: center; */
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   position: relative;
-  gutter: 0;
+  /*gutter: 10;*/
   fitWidth: true;
-  percentPosition: true;
+  /*percentPosition: true;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -798,9 +798,12 @@ button:focus {
 
 
 .grid-item {
-  width: 20%;
-  percentPosition: true;
+    margin-bottom:  10px;
+  /*width: 20%;*/
+  /*percentPosition: true;*/
 }
+
+/*.gutter-sizer { width: 4%; }*/
 
 /* .grid2 {
   max-width: 100%;
