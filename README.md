@@ -1,4 +1,4 @@
-# `JWhite Analytics`
+# `JWhite Analytics` [![CodeFactor](https://www.codefactor.io/repository/github/jwhite1987/jwhite-analytics/badge/main)](https://www.codefactor.io/repository/github/jwhite1987/jwhite-analytics/overview/main)
 
 ## Project Description
 
